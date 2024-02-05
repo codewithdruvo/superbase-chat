@@ -1,0 +1,19 @@
+const envConfig = {
+  // firebase
+  FIREBASE_API_KEY: import.meta.env.VITE_APP_FIREBASE_API_KEY,
+  FIREBASE_AUTH_DOMAIN: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
+  FIREBASE_PROJECT_ID: import.meta.env.VITE_APP_FIREBASE_PROJECT_ID,
+  FIREBASE_STORAGE_BUCKET: import.meta.env.VITE_APP_FIREBASE_STORAGE_BUCKET,
+  FIREBASE_MESSAGING_SENDER_ID: import.meta.env
+    .VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
+  FIREBASE_APP_ID: import.meta.env.VITE_APP_FIREBASE_APP_ID,
+
+  // stripe
+  STRIPE_KEY: import.meta.env.VITE_APP_STRIPE_KEY,
+
+  // SUPABASE
+  SUPABASE_URL: import.meta.env.VITE_SUPABASE_URL,
+  SUPABASE_ANON: import.meta.env.VITE_SUPABASE_ANON,
+};
+
+export default envConfig;
