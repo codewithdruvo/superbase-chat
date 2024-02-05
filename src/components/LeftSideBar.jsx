@@ -1,5 +1,5 @@
 import { Avatar, Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
-import { AiOutlineLogout } from "react-icons/ai";
+import { LuLogOut } from "react-icons/lu";
 import { FaSuitcase } from "react-icons/fa";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
@@ -122,7 +122,7 @@ const LeftSideBar = (props) => {
               </VStack>
             </HStack>
 
-            <AiOutlineLogout
+            <LuLogOut
               cursor={"pointer"}
               onClick={async () => {
                 await signout();
